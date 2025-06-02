@@ -31,11 +31,25 @@ body {
   filter: blur(0.1vmin);
 }
 
+.top-logo {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.logo-image {
+  width: 100px; 
+  height: auto;
+}
+
 .happy-woman-day {
   color: #c6a73f;
   font-size: 50px;
   position: fixed;
   top: 80px;
+  top: 120px;
   font-family: Lora, serif;
 }
 
